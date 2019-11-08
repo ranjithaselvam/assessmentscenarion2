@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-08T20:50:29 IST" name="Default suite" finished-at="2019-11-08T20:51:01 IST" duration-ms="32106">
+    <groups>
+    </groups>
+    <test started-at="2019-11-08T20:50:29 IST" name="Default test" finished-at="2019-11-08T20:51:01 IST" duration-ms="32106">
+      <class name="com.atmecs.assignment.testscript.TestScript">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.atmecs.assignment.testscript.TestScript@75329a49]" started-at="2019-11-08T20:50:29 IST" name="browserLaunch" finished-at="2019-11-08T20:51:01 IST" duration-ms="31769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="PageRedirection()[pri:0, instance:com.atmecs.assignment.testscript.TestScript@75329a49]" started-at="2019-11-08T20:51:01 IST" name="PageRedirection" finished-at="2019-11-08T20:51:01 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageRedirection -->
+        <test-method signature="merchandiseMenu()[pri:0, instance:com.atmecs.assignment.testscript.TestScript@75329a49]" started-at="2019-11-08T20:51:01 IST" name="merchandiseMenu" finished-at="2019-11-08T20:51:01 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[inStream parameter is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: inStream parameter is null
+at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+at java.base/java.util.Properties.load(Properties.java:403)
+at com.atmecs.assignment.utils.Utils.propertyRead(Utils.java:42)
+at com.atmecs.assignment.testscript.TestScript.merchandiseMenu(TestScript.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merchandiseMenu -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.atmecs.assignment.testscript.TestScript@75329a49]" started-at="2019-11-08T20:51:01 IST" name="browserClose" finished-at="2019-11-08T20:51:01 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.atmecs.assignment.testscript.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
